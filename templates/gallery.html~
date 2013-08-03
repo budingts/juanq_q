@@ -1,0 +1,88 @@
+﻿{% extends 'common_template.html' %}
+{% block content  %}
+    <div id="content">
+      <div id="left">
+        <div class="paddingbox">
+          <h1>Gallery</h1>
+          <p>&nbsp;</p>
+          <div id="gallery">
+    <ul>
+        <li><a href="images/image1.jpg" title="Description Here"><img src="images/thumb_image1.jpg" width="84" height="86" alt="" /></a></li>
+        <li><a href="images/image2.jpg" title="Description Here"><img src="images/thumb_image2.jpg" width="84" height="86" alt="" /></a></li>
+        <li><a href="images/image3.jpg" title="Description Here"><img src="images/thumb_image3.jpg" width="84" height="86" alt="" /></a></li>
+        <li><a href="images/image4.jpg" title="Description Here"><img src="images/thumb_image4.jpg" width="84" height="86" alt="" /></a></li>
+        <li><a href="images/image5.jpg" title="Description Here"><img src="images/thumb_image5.jpg" width="84" height="86" alt="" /></a></li>
+    </ul>
+        <ul>
+        <li><a href="images/image1.jpg" title="Description Here"><img src="images/thumb_image1.jpg" width="84" height="86" alt="" /></a></li>
+        <li><a href="images/image2.jpg" title="Description Here"><img src="images/thumb_image2.jpg" width="84" height="86" alt="" /></a></li>
+        <li><a href="images/image3.jpg" title="Description Here"><img src="images/thumb_image3.jpg" width="84" height="86" alt="" /></a></li>
+        <li><a href="images/image4.jpg" title="Description Here"><img src="images/thumb_image4.jpg" width="84" height="86" alt="" /></a></li>
+        <li><a href="images/image5.jpg" title="Description Here"><img src="images/thumb_image5.jpg" width="84" height="86" alt="" /></a></li>
+    </ul>
+</div> 
+<p>&nbsp;</p></div>
+        <div class="line"></div>
+      </div>
+      <div id="right">
+        <div class="paddingrightbox">
+          <h1>Browse Listings</h1>
+          <div id="listing">
+            <p>
+              <label>
+                <select name="select" id="select">
+                  <option>$100,000 - $1500,000</option>
+                </select>
+              </label>
+              <img src="images/view.png" alt="" width="56" height="32" align="top" /></p>
+            <p>
+              <label>
+                <select name="select" id="select">
+                  <option>Four Bedroom</option>
+                </select>
+              </label>
+              <img src="images/view.png" alt="" width="56" height="32" align="top" /></p>
+              <p>
+                <label>
+                  <select name="select" id="select">
+                    <option>Apartment</option>
+                  </select>
+                </label>
+                <img src="images/view.png" alt="" width="56" height="32" align="top" /></p>
+              <p>
+                <label>
+                  <select name="select" id="select">
+                    <option>1000 - 1500 sf</option>
+                  </select>
+                </label>
+                <img src="images/view.png" alt="" width="56" height="32" align="top" /></p>
+              <p>
+                <label>
+                  <input name="textfield" type="text" id="textfield" value="Search your property" />
+                </label>
+              <img src="images/view.png" alt="" width="56" height="32" align="top" /></p>
+          </div>
+          
+        </div>
+        <div class="line"></div>
+        <div class="paddingrightbox">
+          <h1>About Us</h1>
+          <p>&nbsp;</p>
+          <p><span class="browntext">Lorem ipsum iriure dolor in hendrerit</span><br />
+            Feugiat nula facilisis at vero eros et accumsan et iusto odio dignissim qui <br />
+            blandit praesent luptatum il. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdie. doming id quod. <br />
+            mazim placerat facer possim assum velum iriure dolor in hendrerit in vulputa velit. </p>
+        </div>
+        <div class="line"></div>
+        <div class="paddingrightbox">
+          <h1>Latest News</h1>
+          <p>&nbsp;</p>
+          <p><span class="browntext">Lorem ipsum iriure dolor in hendrerit</span><br />
+            Feugiat nula facilisis at vero eros et accumsan et iusto odio dignissim qui <br />
+            blandit praesent luptatum il. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdie. doming id quod. <br />
+            mazim placerat facer possim assum velum iriure dolor in hendrerit in vulputa velit. </p>
+        </div>
+      </div>
+    </div>
+   
+{% endblock %}

@@ -1,0 +1,98 @@
+﻿{% extends 'common_template.html' %}
+{% block content  %}
+  <div id="content">
+      <div id="left">
+        <div class="paddingbox">
+          <h1>Welcome to Realty Agency</h1>
+          <p>&nbsp;</p>
+          <img src="/static/images/pic01.jpg" alt="" width="142" height="142" class="leftimg" /><strong>Duis autem vel eum iriure dolor in hendrerit in vulputate</strong><br />
+        Velit esse molestie consequat, vel illum dolore eu feugiat nula facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdie. doming id quod. mazim placerat facer possim assum vel eum iriure dolor in hendrerit in vulputate velit esse molestie cons. </div>
+        <div class="line"></div>
+        <div class="paddingbox">
+          <div style="width:250px; float:left;">
+            <p><img src="/static/images/pic02.jpg" width="250" height="101" alt="" /></p>
+            <h1>Property Title</h1>
+            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdie. doming id quod. mazim placerat facer possim assum vel eum iriure dolor in hendrerit in vulputate.</p>
+            <p><img src="/static/images/view.png" alt="" width="56" height="32" align="right" /> </p>
+          </div><div style="width:250px; float:right;">
+            <p><img src="/static/images/pic03.jpg" width="250" height="101" alt="" /></p>
+            <h1>Property Title</h1>
+            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdie. doming id quod. mazim placerat facer possim assum vel eum iriure dolor in hendrerit in vulputate. </p>
+            <p><img src="/static/images/view.png" alt="" width="56" height="32" align="right" /></p>
+          </div></div>
+        <div class="line"></div>
+        <div class="paddingbox">
+          <div style="width:250px; float:left;">
+            <p><img src="/static/images/pic04.jpg" width="250" height="101" alt="" /></p>
+            <h1>Property Title</h1>
+            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdie. doming id quod. mazim placerat facer possim assum vel eum iriure dolor in hendrerit in vulputate.</p>
+            <p><img src="/static/images/view.png" alt="" width="56" height="32" align="right" /> </p>
+          </div><div style="width:250px; float:right;">
+            <p><img src="/static/images/pic05.jpg" width="250" height="101" alt="" /></p>
+            <h1>Property Title</h1>
+            <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdie. doming id quod. mazim placerat facer possim assum vel eum iriure dolor in hendrerit in vulputate. </p>
+            <p><img src="/static/images/view.png" alt="" width="56" height="32" align="right" /></p>
+          </div></div>
+      </div>
+      <div id="right">
+        <div class="paddingrightbox">
+          <h1>Browse Listings</h1>
+          <div id="listing">
+            <p>
+              <label>
+                <select name="select" id="select">
+                  <option>$100,000 - $1500,000</option>
+                </select>
+              </label>
+              <img src="/static/images/view.png" alt="" width="56" height="32" align="top" /></p>
+            <p>
+              <label>
+                <select name="select" id="select">
+                  <option>Four Bedroom</option>
+                </select>
+              </label>
+              <img src="/static/images/view.png" alt="" width="56" height="32" align="top" /></p>
+              <p>
+                <label>
+                  <select name="select" id="select">
+                    <option>Apartment</option>
+                  </select>
+                </label>
+                <img src="/static/images/view.png" alt="" width="56" height="32" align="top" /></p>
+              <p>
+                <label>
+                  <select name="select" id="select">
+                    <option>1000 - 1500 sf</option>
+                  </select>
+                </label>
+                <img src="/static/images/view.png" alt="" width="56" height="32" align="top" /></p>
+              <p>
+                <label>
+                  <input name="textfield" type="text" id="textfield" value="Search your property" />
+                </label>
+              <img src="/static/images/view.png" alt="" width="56" height="32" align="top" /></p>
+          </div>
+          
+        </div>
+        <div class="line"></div>
+        <div class="paddingrightbox">
+          <h1>About Us</h1>
+          <p>&nbsp;</p>
+          <p><span class="browntext">Lorem ipsum iriure dolor in hendrerit</span><br />
+            Feugiat nula facilisis at vero eros et accumsan et iusto odio dignissim qui <br />
+            blandit praesent luptatum il. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdie. doming id quod. <br />
+            mazim placerat facer possim assum velum iriure dolor in hendrerit in vulputa velit. </p>
+        </div>
+        <div class="line"></div>
+        <div class="paddingrightbox">
+          <h1>Latest News</h1>
+          <p>&nbsp;</p>
+          <p><span class="browntext">Lorem ipsum iriure dolor in hendrerit</span><br />
+            Feugiat nula facilisis at vero eros et accumsan et iusto odio dignissim qui <br />
+            blandit praesent luptatum il. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdie. doming id quod. <br />
+            mazim placerat facer possim assum velum iriure dolor in hendrerit in vulputa velit. </p>
+        </div>
+      </div>
+    </div>
+   
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'common_template.html' %}
+{% block content  %}
+<div style="padding-top:50px;" >
+<div style="float:left">
+<form method="post" action="" >
+{% csrf_token  %}
+<table>
+	{{f}}
+</table>
+<input class ="btn btn-large btn-primary" style="margin-left:100px"  type="submit" value="send" />
+</form>
+</div>
+<div style="float:left;margin-left:20px">
+{% for i in l1 %}
+<li style="width:600px">{{i.name}}-----{{i.content}} 
+	<p>	
+		<a class="btn btn-mini btn-primary" href="/del_by_id?_id={{i.id}}"  >删除</a>
+		<a class="btn btn-mini btn-primary" href="/to_edit?_id={{i.id}}"  >更改</a>
+	</p>
+</li>
+{% endfor  %}
+</div>
+</div>
+{% endblock  %}
+
+
+

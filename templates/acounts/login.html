@@ -1,0 +1,27 @@
+{% extends 'common_template/common_head.html' %}
+{% block content  %}
+<div style="padding-top:50px">
+<div style="float:left">
+<p>登录</>
+<form method="post" action="/acounts/login/" >
+{% csrf_token %}
+<table>
+<tr>
+    <td>{{ form.username.label_tag }}</td>
+    <td>{{ form.username }}</td>
+</tr>
+<tr>
+    <td>{{ form.password.label_tag }}</td>
+    <td>{{ form.password }}</td>
+</tr>
+</table>
+<input type="submit" value="login" />
+<input type="hidden" name="next" value="{{ next }}" />
+</form>
+<a href="/accounts/register"> 点击注册 </a>
+</div>
+</div>
+{% endblock  %}
+
+
+

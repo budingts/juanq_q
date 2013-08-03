@@ -1,0 +1,19 @@
+{% extends 'common_head.html' %}
+{% block content  %}
+<div style="padding-top:50px">
+<div style="float:left">
+<p>editdddddddddddd</>
+<form method="post" action="/update_by_id" >
+{% csrf_token  %}
+<table>
+	<input type="hidden" name="n_id" value="{{id}}" />
+	{{f}}
+</table>
+<input class ="btn btn-large btn-primary" style="margin-left:100px"  type="submit" value="send" />
+</form>
+</div>
+</div>
+{% endblock  %}
+
+
+
